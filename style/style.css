@@ -1,0 +1,93 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url("../images/main_bg.gif");
+}
+
+/*  Style Wrapper    */
+
+#wrapper {
+	height: 800px;
+	margin: auto;
+	width: 1000px;
+}
+
+/*  Style Wrapper    */
+
+
+
+
+/*  Style Wrapper Header   */
+
+#wrapper #header {
+	height: 306px;
+	background: url("../images/steve-jobs-face.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 93px;
+    margin-top: -151px;
+}
+
+#wrapper #header #logo-apple {
+	float: left;
+    height: 249px;
+    margin-top: 57px;
+    width: 280px;
+}
+
+#wrapper #header #logo-apple img {
+	height: 250px;
+    width: 278px;
+}
+
+/*  Style Wrapper Header   */
+
+
+/*  Style Wrapper Menu  */
+
+#wrapper #menu {
+	background-color: black;
+	height: 50px;
+	margin: auto;
+	
+}
+
+
+#wrapper #menu ul {
+	list-style-type: none;
+    margin-left: -19px;
+}
+
+#wrapper #menu ul li {
+	float: left;
+    margin-left: 154px;
+    margin-top: 15px;
+}
+
+
+#wrapper #menu ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+#wrapper #menu ul li a:hover {
+	color: green;
+	
+}
+
+/*  Style Wrapper Menu  */
+
+
+/* Style Content */
+#wrapper #content {
+	background-color: yellow;
+	width: 100%;
+	height: 500px;
+}
+
+/* End Style Content */
+
+
